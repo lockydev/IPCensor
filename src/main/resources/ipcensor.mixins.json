@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.stuffbylocky.ipcensor.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "DisconnectedScreenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

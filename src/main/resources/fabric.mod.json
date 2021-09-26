@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ipcensor",
+  "version": "${version}",
+
+  "name": "IP Censor",
+  "description": "Removes the server IP from the connection error screen.",
+  "authors": [
+    "CursedLocky"
+  ],
+  "contact": {
+    "homepage": "https://stuffbylocky.com",
+    "sources": "https://github.com/locky1423/IPCensor"
+  },
+
+  "license": "MIT",
+  "icon": "assets/ipcensor/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stuffbylocky.ipcensor.Ipcensor"
+    ]
+  },
+  "mixins": [
+    "ipcensor.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
