@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# IPCensor Fabric Mod
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+1. Install Fabric [Link](https://fabricmc.net/wiki/player:tutorials:install_mcl:windows)
+2. Download [Link](https://github.com/locky1423/IPCensor/releases)
 
 ## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Read [LICENSE](LICENSE)
